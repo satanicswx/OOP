@@ -42,9 +42,7 @@ namespace ConsoleApp1
 
             if (double.TryParse(input, out double number))
             {
-                // Перетворення double у int (з відкиданням дробової частини)
                 int intNumber = (int)number;
-                // Перетворення int назад у string
                 string strNumber = intNumber.ToString();
 
                 Console.WriteLine("Ви ввели (double): " + number);
